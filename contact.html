@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact the DevNest learning team.">
+    <title>DevNest | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="site-header">
+    <div class="container nav-container">
+        <a href="index.html" class="logo">Dev<span>Nest</span></a>
+
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="program.html">Programs</a></li>
+                <li><a href="task.html">Tasks</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="main-content">
+
+    <section class="page-hero">
+        <div class="container">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h1>Contact Us</h1>
+            <p>
+                Have a question about web development?
+                We'd love to hear from you.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container contact-layout">
+
+            <div class="contact-info">
+                <h2>Let's Connect</h2>
+                <p>
+                    Have questions about our learning
+                    programs or practical tasks?
+                    Fill out the form to practice
+                    using accessible HTML inputs.
+                </p>
+
+                <div class="info-card">
+                    <h3>Learning Support</h3>
+                    <p>
+                        Explore our FAQ page for answers
+                        to common questions.
+                    </p>
+                    <a href="faq.html">Visit FAQ</a>
+                </div>
+
+                <div class="info-card">
+                    <h3>Explore Programs</h3>
+                    <p>
+                        Discover HTML, CSS and JavaScript
+                        learning paths.
+                    </p>
+                    <a href="program.html">View Programs</a>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h2>Send a Message</h2>
+
+                <form action="#" method="get">
+
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input
+                            type="text"
+                            id="full-name"
+                            name="full-name"
+                            placeholder="Enter your full name"
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="html">HTML Learning</option>
+                            <option value="css">CSS Learning</option>
+                            <option value="javascript">JavaScript</option>
+                            <option value="general">General Question</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message here..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Submit Form
+                    </button>
+
+                    <p class="form-note">
+                        Demo form only. No message will be
+                        sent or stored.
+                    </p>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-content">
+        <p><strong>DevNest</strong> — Learn. Build. Grow.</p>
+        <p>&copy; 2026 DevNest. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
