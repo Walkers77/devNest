@@ -35,12 +35,14 @@ Web Foundations & Semantic HTML.
 3. Navigate using the menu.
 
 ## Accessibility Checklist
-- [ ] Semantic HTML elements used
-- [ ] Proper heading structure
-- [ ] Keyboard navigation tested
-- [ ] Form labels connected to inputs
-- [ ] Meaningful link text
-- [ ] Responsive layout tested
+
+- [x] Semantic HTML elements used
+- [x] Proper heading structure
+- [x] Keyboard navigation tested
+- [x] Form labels connected to inputs
+- [x] Meaningful link text
+- [x] Responsive layout tested
+
 
 ## Author
 DevNest Web Development Project
